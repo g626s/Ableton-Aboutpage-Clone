@@ -1,0 +1,19 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 430 104"
+  width="430px"
+  height="104px"
+>
+  <text
+    x="50%"            
+    y="50%"        
+    font-family="'Futura-Book', sans-serif"
+    font-size="120"   
+    fill="#FD5948"
+    text-anchor="middle"   
+    dominant-baseline="middle"
+  >
+    Ableton
+  </text>
+</svg>

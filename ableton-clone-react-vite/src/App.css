@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Futura-Book';
+  src: url('../src/assets/futura/Futura-Book-font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura-Heavy';
+  src: url('../src/assets/futura/Futura-Heavy-font.ttf') format('truetype');
+}
+
+:root {
+    font-family: 'Futura-Book', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: var(--main-font-color);
+    background-color: var(--main-body-color-1);
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Custom properties */
+    --main-body-color-1: hsl(0, 0%, 95%);
+    --main-body-color-2: hsl(0, 0%, 100%);
+  
+    --main-font-color: hsl(0, 0%, 0%);
+    --main-font-color-alt: hsl(14, 100%, 65%);
+    --main-font-color-alt-2: hsl(240, 100%, 50%);
+  }
+  
+  a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #535bf2;
+  }
+
+/*// Utility container // */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: -6px;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  background-color: var(--main-body-color-2);
+  overflow-x: hidden;
+  }
+  
+  /*// Utility container MORE // */
+  .container-more {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: -30px;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  background-color: var(--main-body-color-2);
+  overflow-x: hidden;
+  }
+  
+  /*// Responsiveness - Mobile First Approach // /
+  / 3XL */
+  @media screen and (max-width: 120em) {
+  .container, .container-more {
+  width: calc(100% - 16rem);
+  }
+  }
+  
+  /* 2XL */
+  @media screen and (max-width: 100em) {
+  .container, .container-more {
+  width: calc(100% - 8rem);
+  }
+  }
+  
+  /* XL */
+  @media screen and (max-width: 90em) {
+  .container, .container-more {
+  width: 100%;
+  }
+  }
+  
+  /* LG */
+  @media screen and (max-width: 80em) {
+  .container, .container-more {
+  width: 100%;
+  }
+  }
+  
+  /* MD */
+  @media screen and (max-width: 64em) {
+    .container, .container-more {
+      width: 100%;
+  }
+  }
+  
+  /* SM */
+  @media screen and (max-width: 48em) {
+    .container, .container-more {
+      width: 100%;
+  }
+  }
+  
+  /* XS */
+  @media screen and (max-width: 36em) {
+    .container, .container-more {
+      width: 100%;
+  }
+  }
+  
+  html, body {
+    overflow-x: hidden;
+  }

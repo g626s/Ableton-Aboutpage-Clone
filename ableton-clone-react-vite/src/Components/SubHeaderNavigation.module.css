@@ -1,0 +1,31 @@
+.main_nav__link_list__secondary {
+    display: flex;
+    gap: 2.472rem;
+    padding: 0 1.5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin: 0;
+}
+
+.main_nav__link_list_item,
+.main_nav__link_list_item_highlight {
+    list-style: none;
+}
+
+.main_nav__link_list_item > a {
+    color: var(--main-color-font);
+    font-size: 1rem;
+}
+
+.main_nav__link_list_item_highlight > a {
+    color: var(--main-font-color-alt);
+    font-size: 1rem;
+}
+
+.main_nav__link_list_item > a:hover {
+    color: inherit;
+}
+
+.main_nav__link_list_item_highlight > a:hover {
+    color: var(--main-font-color-alt);
+}
