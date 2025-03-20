@@ -52,7 +52,8 @@ A front-end project to recreate the Ableton website using React and Vite. This p
     - #### Language and Location (In Progress)
     - #### Consent State demos (In Progress)
 
-- Sample setup for AB Tasty tests (In Progress)
+- Sample setup for AB Tasty tests
+    - #### AB Tasty Test Setup based on synchronous loading to avoid any UX disruptions (i.e. flickering). AB Tasty is one of the top digital experience optimization platforms that helps businesses test, personalize, and optimize their websites and applications to improve user engagement, conversions, and overall customer experience. 
 - Sandbox setup for CookieBot (In Progress)
 - Newsletter signup (In progress)
 
