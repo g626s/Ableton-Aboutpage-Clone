@@ -57,6 +57,63 @@ A front-end project to recreate the Ableton website using React and Vite. This p
 - Sandbox setup for CookieBot (In Progress)
 - Newsletter signup (In progress)
 
+## Setup Instructions: Create Your Own Clone
+
+Follow these steps to set up your own version of this SPA project:
+
+1. Ensure Git is Installed
+   - Download and install Git from [git-scm.com](https://git-scm.com/downloads)
+   - Verify installation by running: 
+   ```terminal
+   git --version
+   ```
+
+2. Create a New [Vite + React](https://vite.dev/guide/) Project (If starting fresh)
+    ```terminal
+    npm create vite@latest ableton-clone --template react
+    cd ableton-clone
+    npm install
+    ```
+
+3. Clone This Repository (If using this as a base)
+    ```terminal
+    git clone https://github.com/your-username/Ableton-Aboutpage-Clone.git
+    cd Ableton-Aboutpage-Clone
+    npm install
+    ```
+
+4. Update Google Tag Manager (GTM) Container ID
+    - Replace the existing GTM-XXXXXXX with your own GTM container ID
+
+5. Start the Development Server
+    ```terminal
+    npm run dev
+    ```
+    - This will start the app locally on http://localhost:5173/
+
+6. Deploy to GitHub Pages (Optional)
+    - Once everything all checks out, update the homepage field in package.json:
+    ```json
+    "homepage": "https://your-username.github.io/Ableton-Aboutpage-Clone"
+    ```
+    - Install GitHub Pages package:
+    ```terminal
+    npm install gh-pages --save-dev
+    ```
+    - Add deployment scripts to package.json:
+    ```json
+    "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+    }
+    ```
+    - Deploy with:
+    ```terminal
+    npm run deploy
+    ```
+7. Verify Tracking Setup
+    - Open GTM Preview mode or check your live site to ensure dataLayer events fire correctly.
+
 ## 📝 License
 
 This project is for educational purposes only.

@@ -427,9 +427,7 @@ img {
     height: auto;
     max-width: 100%;
     border: 0
-}
-
-/*// Responsiveness - Mobile First Approach // */
+}/*// Responsiveness - Mobile First Approach // */
 
 /* 3XL */
 @media screen and (max-width: 120em) { /*1920px*/
@@ -1100,3 +1098,4 @@ img {
         font-size: 12px;
     }
 }
+
